@@ -1,0 +1,264 @@
+
+.container{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+/*Barra de navegação*/
+
+.inicio{
+    background-color: #736355;
+    height: 80px;
+    width: 100%;
+}
+.inicio1{
+    height: 300px;
+    width:1250px;
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+    margin-top: 8px; margin-left: 20px; margin-bottom: 8px;
+    border-radius: 30px;
+} 
+.link{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    
+}
+.links{
+    width: 130px; height: 40px;
+    margin-top:20px ;margin-bottom:20px ;margin-left:45px ;
+    border-radius: 20px;
+    border: #5d2417 2px;
+    gap: 5px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: #324e2e 0.04em 0.04em;
+}
+.links:hover{
+    background-color: #91BF8A;
+    color: black;
+    border: 2px solid #5d2417;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #5d2417;
+    text-shadow: none;
+    transform: scale(0.75)
+}
+.button1{margin-top: 15px; margin-left: 350px;}
+.botao1{height: 50px; width: 100px;
+    background: #a59281;
+    color: black;
+    border-style: outset; 
+    border-color: #5d2417;
+    font: bold;
+    text-shadow: none;
+    border-radius: 20px;
+}
+.botao1:hover{
+    background-color: #91BF8A;
+    color: black;
+    border: 1px solid #5d2417;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #5d2417;
+    text-shadow: none;
+}
+/*Home*/
+
+#tela1{
+    background-color: #D9C7B8;
+    height: 600px;
+    width: 100%;  
+    background-image: url(principal1.jpg);
+}
+.texto1{
+    height: 550px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 50px;
+    align-items: center;
+    gap: 2px;
+}
+.tituloh1{
+    height: 100px;
+    width: 550px;
+    float: center;
+    font-size: 100px;
+    text-shadow: #324e2e 0.05em 0.05em;
+
+}
+.textosh1{
+    height: 100px;
+    width: 550px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: #5d2417 0.03em 0.03em;
+    row-gap: 5px;
+    
+}
+.button2{margin-left: 350px; height: 100px;
+    width: 550px;}
+.botao2{height: 70px; width: 200px; 
+    background: #6A8C65;
+    color: black;
+    border-style: outset; 
+    border-color: #5d2417;
+    font: bold;
+    text-shadow: none;
+    border-radius: 20px;
+}
+.botao2:hover{
+    background-color: #324e2e;
+    color: black;
+    border: 1px solid #5d2417;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #5d2417;
+    text-shadow: none;
+}
+/*Sobre nós*/
+
+#tela2{
+    background-color: #6A8C65;
+    height: 500px;
+    width: 100%;
+    display: grid;
+    
+}
+.t1{height: 5px;
+    width: 900px;
+}
+.sobrenostitulo{font-size: 50px; margin-left: 550px; margin-top: 10px; text-shadow: #324e2e  0.05em 0.05em;}
+.sobrenos{font-size: 15px; margin-left: 400px; text-align: center;}
+.bolinha{width: 1000px; height: 200px; margin-top: 80px;
+     margin-left: 70px; margin-right: 40px; display: flex; flex-direction: row;}
+.n1{background-color: #5d2417; border-radius: 30px; height: 50px; width: 50px; font-size: 30px;
+    margin-left: 40px; border: #324e2e 5px solid;}
+.t2{height: 70px;
+    width: 350px;
+    margin-left: 200px;
+    margin-top: 10px;
+    text-align: center;
+}
+.t3{height: 70px;
+    width: 350px;
+    margin-left: 150px;
+    margin-top: 10px;
+    text-align: center;
+}
+.t4{height: 70px;
+    width: 350px;
+    margin-left: 200px;
+    margin-top: 10px;
+    text-align: center;
+}
+/*Produtos*/
+
+#tela3{
+    background-color: #A69485;
+    height: 400px;
+    width: 100%;
+}
+.textos3{float: center;}
+.titulotela3{font-size: 40px; margin-left: 460px;text-shadow: #324e2e 0.05em 0.05em;}
+.textotela3{font-size: 20px; margin-left: 390px;}
+.imagemtela3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 3em;
+    grid-row-gap: 3em;
+    margin-top: 60px;
+    margin-left: 180px;
+
+}
+.imgtela3{
+    width: 150px;
+    height: 190px;
+    border-style: groove;
+    border-color: #324e2e 9em;
+}
+.imgtela3:hover{
+    transform: scale(0.75);
+}
+/*Inscrição*/
+
+#tela4{
+    background-color: #91BF8A;
+    height: 600px;
+    width: 100%;
+}
+form{
+    margin: 0 auto;
+    width: 1000px;
+    padding: 5em;
+    border: 0px solid #ccc;
+    border-radius: 1em;
+}
+.tituloform{
+    float: center;
+}
+.nomeformulario{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size:40px;
+font-style: oblique;
+font-variant: small-caps;
+text-align: center;
+margin-top: 40px; margin-bottom: 10px;
+text-shadow: #324e2e 0.05em 0.05em;
+
+
+}
+.container2{
+    display: flex;
+    gap: 15px;
+    margin-top: 15px; margin-bottom: 20px; margin-left: 50px;
+    float: center;
+}
+.nome{font-size: 20px;}
+.nomeresp{width:450px ; height: 30px; border-color: #5d2417; border-radius: 10px;}
+.email{font-size: 20px;}
+.emailresp{width:400px ; height: 30px; border-color: #5d2417; border-radius: 10px;}
+.msg{font-size: 20px; margin-left: 48px;}
+.resp{width: 877px; height: 140px; margin-bottom: 30px; margin-left: 50px; margin-top: 1px; border-color: #5d2417;  border-radius: 10px;}   
+.button3{margin-top: 2px; margin-bottom: 2px; margin-left: 485px;}
+.botao3{height: 40px; width: 80px; 
+    background: #a59281;
+    color: black;
+    border-style: outset; 
+    border-color: #5d2417;
+    font: bold;
+    text-shadow: none;
+    border-radius: 20px;
+}
+.botao3:hover{
+    background-color: #91BF8A;
+    color: black;
+    border: 1px solid #5d2417;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #5d2417;
+    text-shadow: none;
+}
+/*footer*/
+
+.fim{
+    background-color: #736355;
+    height: 70px;
+    width: 100%;
+    display: flex; 
+    flex-direction: row; 
+}
+.icones{
+    margin-top: 10px;
+}
+.copy{
+    float: right;
+    margin-top: 25px;
+    margin-left: 1000px;
+}
